@@ -14,5 +14,5 @@ jobs:
           java-version: 1.8
       - name: Apply permissions
         run: chmod +0777 gradlew
-      - name: Gradle ShadowJar
-        run: ./gradlew shadowJar
+      - name: Gradle Build
+        run: ./gradlew build
