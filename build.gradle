@@ -1,0 +1,16 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.4.21'
+}
+
+group 'me.illuminator3'
+version '0.1'
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+}
+
+dependencies {
+    implementation 'org.jetbrains.kotlin:kotlin-stdlib'
+    implementation 'org.spigotmc:spigot:1.8.8-R0.1-SNAPSHOT'
+}
