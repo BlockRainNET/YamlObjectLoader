@@ -1,4 +1,4 @@
-package me.illuminator3.yol
+package net.blockrain.yol
 
 import org.bukkit.configuration.ConfigurationSection
 
